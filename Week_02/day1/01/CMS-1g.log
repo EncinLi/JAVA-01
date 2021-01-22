@@ -1,0 +1,29 @@
+Java HotSpot(TM) 64-Bit Server VM (25.191-b12) for windows-amd64 JRE (1.8.0_191-b12), built on Oct  6 2018 09:29:03 by "java_re" with MS VC++ 10.0 (VS2010)
+Memory: 4k page, physical 8295652k(2967864k free), swap 11884216k(6058272k free)
+CommandLine flags: -XX:InitialHeapSize=1073741824 -XX:MaxHeapSize=1073741824 -XX:MaxNewSize=357916672 -XX:MaxTenuringThreshold=6 -XX:NewSize=357916672 -XX:OldPLABSize=16 -XX:OldSize=715825152 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:-UseLargePagesIndividualAllocation -XX:+UseParNewGC 
+2021-01-20T22:01:34.039+0800: 0.245: [GC (Allocation Failure) 2021-01-20T22:01:34.040+0800: 0.245: [ParNew: 279616K->34943K(314560K), 0.0581650 secs] 279616K->79911K(1013632K), 0.0583687 secs] [Times: user=0.05 sys=0.08, real=0.06 secs] 
+2021-01-20T22:01:34.151+0800: 0.356: [GC (Allocation Failure) 2021-01-20T22:01:34.151+0800: 0.356: [ParNew: 314559K->34944K(314560K), 0.0318176 secs] 359527K->169777K(1013632K), 0.0319467 secs] [Times: user=0.13 sys=0.13, real=0.03 secs] 
+2021-01-20T22:01:34.235+0800: 0.441: [GC (Allocation Failure) 2021-01-20T22:01:34.235+0800: 0.441: [ParNew: 314560K->34944K(314560K), 0.0496150 secs] 449393K->243287K(1013632K), 0.0496889 secs] [Times: user=0.22 sys=0.06, real=0.05 secs] 
+2021-01-20T22:01:34.335+0800: 0.540: [GC (Allocation Failure) 2021-01-20T22:01:34.335+0800: 0.540: [ParNew: 314560K->34942K(314560K), 0.0558652 secs] 522903K->323262K(1013632K), 0.0559455 secs] [Times: user=0.28 sys=0.06, real=0.06 secs] 
+2021-01-20T22:01:34.446+0800: 0.651: [GC (Allocation Failure) 2021-01-20T22:01:34.446+0800: 0.651: [ParNew: 314558K->34942K(314560K), 0.0560667 secs] 602878K->402010K(1013632K), 0.0561497 secs] [Times: user=0.34 sys=0.05, real=0.05 secs] 
+2021-01-20T22:01:34.501+0800: 0.707: [GC (CMS Initial Mark) [1 CMS-initial-mark: 367067K(699072K)] 402155K(1013632K), 0.0001863 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2021-01-20T22:01:34.501+0800: 0.707: [CMS-concurrent-mark-start]
+2021-01-20T22:01:34.505+0800: 0.711: [CMS-concurrent-mark: 0.003/0.003 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2021-01-20T22:01:34.505+0800: 0.711: [CMS-concurrent-preclean-start]
+2021-01-20T22:01:34.506+0800: 0.712: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2021-01-20T22:01:34.506+0800: 0.712: [CMS-concurrent-abortable-preclean-start]
+2021-01-20T22:01:34.553+0800: 0.758: [GC (Allocation Failure) 2021-01-20T22:01:34.553+0800: 0.758: [ParNew: 314558K->34942K(314560K), 0.0584760 secs] 681626K->484110K(1013632K), 0.0586129 secs] [Times: user=0.41 sys=0.06, real=0.06 secs] 
+2021-01-20T22:01:34.660+0800: 0.865: [GC (Allocation Failure) 2021-01-20T22:01:34.660+0800: 0.865: [ParNew: 314558K->34944K(314560K), 0.0555838 secs] 763726K->561697K(1013632K), 0.0557470 secs] [Times: user=0.33 sys=0.02, real=0.05 secs] 
+2021-01-20T22:01:34.760+0800: 0.965: [GC (Allocation Failure) 2021-01-20T22:01:34.760+0800: 0.965: [ParNew: 314560K->34943K(314560K), 0.0587012 secs] 841313K->643896K(1013632K), 0.0588387 secs] [Times: user=0.33 sys=0.08, real=0.06 secs] 
+2021-01-20T22:01:34.868+0800: 1.074: [GC (Allocation Failure) 2021-01-20T22:01:34.868+0800: 1.074: [ParNew: 314559K->34943K(314560K), 0.0561935 secs] 923512K->724454K(1013632K), 0.0563355 secs] [Times: user=0.39 sys=0.05, real=0.06 secs] 
+2021-01-20T22:01:34.925+0800: 1.130: [CMS-concurrent-abortable-preclean: 0.013/0.418 secs] [Times: user=1.66 sys=0.20, real=0.42 secs] 
+2021-01-20T22:01:34.925+0800: 1.130: [GC (CMS Final Remark) [YG occupancy: 40714 K (314560 K)]2021-01-20T22:01:34.925+0800: 1.130: [Rescan (parallel) , 0.0006424 secs]2021-01-20T22:01:34.925+0800: 1.131: [weak refs processing, 0.0000162 secs]2021-01-20T22:01:34.926+0800: 1.131: [class unloading, 0.0002374 secs]2021-01-20T22:01:34.926+0800: 1.131: [scrub symbol table, 0.0004279 secs]2021-01-20T22:01:34.926+0800: 1.132: [scrub string table, 0.0001015 secs][1 CMS-remark: 689510K(699072K)] 730225K(1013632K), 0.0015359 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2021-01-20T22:01:34.926+0800: 1.132: [CMS-concurrent-sweep-start]
+Heap
+ par new generation   total 314560K, used 46307K [0x00000000c0000000, 0x00000000d5550000, 0x00000000d5550000)
+  eden space 279616K,   4% used [0x00000000c0000000, 0x00000000c0b18d70, 0x00000000d1110000)
+  from space 34944K,  99% used [0x00000000d3330000, 0x00000000d554ffc0, 0x00000000d5550000)
+  to   space 34944K,   0% used [0x00000000d1110000, 0x00000000d1110000, 0x00000000d3330000)
+ concurrent mark-sweep generation total 699072K, used 575085K [0x00000000d5550000, 0x0000000100000000, 0x0000000100000000)
+ Metaspace       used 2627K, capacity 4486K, committed 4864K, reserved 1056768K
+  class space    used 290K, capacity 386K, committed 512K, reserved 1048576K

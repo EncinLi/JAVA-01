@@ -1,0 +1,14 @@
+Java HotSpot(TM) 64-Bit Server VM (25.191-b12) for windows-amd64 JRE (1.8.0_191-b12), built on Oct  6 2018 09:29:03 by "java_re" with MS VC++ 10.0 (VS2010)
+Memory: 4k page, physical 8295652k(3127792k free), swap 9606372k(3992268k free)
+CommandLine flags: -XX:InitialHeapSize=2147483648 -XX:MaxHeapSize=2147483648 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:-UseLargePagesIndividualAllocation -XX:+UseSerialGC 
+2021-01-20T21:52:26.633+0800: 0.395: [GC (Allocation Failure) 2021-01-20T21:52:26.633+0800: 0.395: [DefNew: 559232K->69888K(629120K), 0.3781154 secs] 559232K->152557K(2027264K), 0.3782771 secs] [Times: user=0.05 sys=0.03, real=0.38 secs] 
+2021-01-20T21:52:27.114+0800: 0.876: [GC (Allocation Failure) 2021-01-20T21:52:27.114+0800: 0.876: [DefNew: 629120K->69887K(629120K), 0.1234369 secs] 711789K->285693K(2027264K), 0.1235228 secs] [Times: user=0.08 sys=0.05, real=0.12 secs] 
+Heap
+ def new generation   total 629120K, used 604553K [0x0000000080000000, 0x00000000aaaa0000, 0x00000000aaaa0000)
+  eden space 559232K,  95% used [0x0000000080000000, 0x00000000a0a224d8, 0x00000000a2220000)
+  from space 69888K,  99% used [0x00000000a2220000, 0x00000000a665fff0, 0x00000000a6660000)
+  to   space 69888K,   0% used [0x00000000a6660000, 0x00000000a6660000, 0x00000000aaaa0000)
+ tenured generation   total 1398144K, used 215805K [0x00000000aaaa0000, 0x0000000100000000, 0x0000000100000000)
+   the space 1398144K,  15% used [0x00000000aaaa0000, 0x00000000b7d5f768, 0x00000000b7d5f800, 0x0000000100000000)
+ Metaspace       used 2627K, capacity 4486K, committed 4864K, reserved 1056768K
+  class space    used 290K, capacity 386K, committed 512K, reserved 1048576K
