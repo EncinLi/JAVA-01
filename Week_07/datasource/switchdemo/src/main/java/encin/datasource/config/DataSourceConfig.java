@@ -18,19 +18,19 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class DataSourceConfig {
     @Bean
-    @ConfigurationProperties("spring.datasource.master")
+    @ConfigurationProperties(prefix = "spring.datasource.master")
     public DataSource masterDataSource() {
         return DataSourceBuilder.create().build();
     }
 
     @Bean
-    @ConfigurationProperties("spring.datasource.slave1")
+    @ConfigurationProperties(prefix = "spring.datasource.slave1")
     public DataSource slaveDataSource1() {
         return DataSourceBuilder.create().build();
     }
 
     @Bean
-    @ConfigurationProperties("spring.datasource.slave2")
+    @ConfigurationProperties(prefix = "spring.datasource.slave2")
     public DataSource slaveDataSource2() {
         return DataSourceBuilder.create().build();
     }
