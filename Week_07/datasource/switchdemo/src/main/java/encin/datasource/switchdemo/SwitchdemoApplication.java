@@ -2,11 +2,12 @@ package encin.datasource.switchdemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 import tk.mybatis.spring.annotation.MapperScan;
 
-@SpringBootApplication
-@MapperScan("encin.datasource.mapper")
+@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
+@MapperScan(basePackages = "encin.datasource.mapper")
 public class SwitchdemoApplication {
 
     public static void main(final String[] args) {

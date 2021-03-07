@@ -1,6 +1,5 @@
 package encin.datasource.switchdemo;
 
-import java.math.BigDecimal;
 import java.util.List;
 
 import org.junit.jupiter.api.Test;
@@ -22,9 +21,7 @@ class SwitchdemoApplicationTests {
     @Test
     public void addMasterTest() {
         final Account account = new Account();
-        account.setName("master-王五");
-        account.setMoney(BigDecimal.valueOf(12.34));
-        account.setPhone("12222");
+        account.setName("master-test1");
         accountService.addMaster(account);
     }
 
@@ -37,9 +34,7 @@ class SwitchdemoApplicationTests {
     @Test
     public void addSlaveTest() {
         final Account account = new Account();
-        account.setName("slave-王五");
-        account.setMoney(BigDecimal.valueOf(12.34));
-        account.setPhone("12222");
+        account.setName("slave-test1");
         accountService.addSlave(account);
     }
 
